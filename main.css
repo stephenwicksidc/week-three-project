@@ -1,0 +1,19 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 68vw;
+    width: 40vw;
+    border: 1px solid white;
+    background-color: #61b34f;
+}
+.content-row {
+    border: 1px solid white;
+    height: 12vw;
+    display: flex;
+}
+.squares {
+    border: 1px solid white;
+    width: 12vw;
+}
