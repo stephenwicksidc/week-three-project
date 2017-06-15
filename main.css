@@ -3,10 +3,11 @@
 .container {
     display: flex;
     flex-direction: column;
-    height: 68vw;
+    height: 48vw;
     width: 40vw;
     border: 1px solid white;
     background-color: #61b34f;
+    color: white;
 }
 .content-row {
     border: 1px solid white;
@@ -16,4 +17,25 @@
 .squares {
     border: 1px solid white;
     width: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40pt;
+}
+span {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+button {
+    background-color: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 27pt;
+    border: none;
+}
+#result {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 27pt;
+    text-align: right;
+    position: relative;
 }
